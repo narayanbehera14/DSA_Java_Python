@@ -1,7 +1,7 @@
 // Print all element in Array
 package DSA_JAVA_PYTHON ;
 
-public class Array_Question  {
+public class problem1 {
 
 public static void main (String []arg) {
 
