@@ -3,7 +3,7 @@
 public class problem4 {
     public static void main(String[] args) {
         int [] num = {1,4,5,8,9};
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < num.length; i++) {
             if ( i % 2 == 0) {
 
                 System.out.println("even");
@@ -13,4 +13,4 @@ public class problem4 {
         }
         
     }
-
+}
