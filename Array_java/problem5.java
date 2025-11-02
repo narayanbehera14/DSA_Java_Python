@@ -1,0 +1,15 @@
+//#Reverse an array
+
+
+
+public class problem5  {
+    public static void main(String[] args) {
+        int [] num = {1,2,3,5,} ;
+        num.Reverse {} {
+            System.out.println(num);
+        }
+
+        }
+        
+    }
+   
