@@ -11,9 +11,9 @@ public class problem8 {
             newArray[i] = arr[i];
         }
 
-        newArray[4] = 44;
+        newArray[5] = 44;
 
-        for(int i = 5; i < arr.length; i++){
+        for(int i = 6; i < arr.length; i++){
             newArray[i + 1] = arr[i];
         }
 
