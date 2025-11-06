@@ -1,22 +1,35 @@
 #Find first and last occurrence of an element
-arr = [1, 2, 3, 5, 4, 6, 8, 0, 2, 1, 2]
-key = 2
+# arr = [1, 2, 3, 5, 4, 6, 8, 0, 2, 1, 2]
+# key = 2
 
-first = -1
-last = -1
+# first = -1
+# last = -1
 
-for i in range(len(arr)):
-    if arr[i] == key:
-        if first == -1:
-            first = i
-        last = i
+# for i in range(len(arr)):
+#     if arr[i] == key:
+#         if first == -1:
+#             first = i
+#         last = i
 
-if first != -1:
-    print("First occurrence:", first)
-    print("Last occurrence:", last)
-else:
-    print("Element not found")
+# if first != -1:
+#     print("First occurrence:", first)
+#     print("Last occurrence:", last)
+# else:
+#     print("Element not found")
 
         
 
-    
+#Find the index of the element just greater than X
+
+arr = [1,2,3,4,5,6]
+key = 4
+big = []
+
+for i in range(len(arr)):
+    if arr [i] > key:
+        
+        big.append(arr[i])
+        
+        
+print("bigger no.:",big)
+
