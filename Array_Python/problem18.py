@@ -35,7 +35,7 @@ print(var)
 #Update array elements based on another array
 
 let = [1,5,4,7,8,9]
-new_let = [10,20,120,30,40]
+new_let = [10,20,120,30,40,44]
 
 for i in range(len(let)):
    let[i] = new_let[i]
