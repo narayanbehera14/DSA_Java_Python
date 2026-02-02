@@ -7,3 +7,9 @@ print(arr)
 arr.sort()
 print(arr)
 
+a = [32,3,4,55,555]
+a.append(22)
+print(a)
+
+a.sort()
+print(a)
