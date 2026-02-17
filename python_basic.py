@@ -90,3 +90,30 @@ print(list(zip(a,b)))
 nums = [1,2,3]
 print(len(nums),max(nums),min(nums),sum(nums))
 
+#what is exception handling ?
+
+try :
+    lst = [4,5,6,7,22,11,112]
+    print(lst[1])
+    print(lst[22])
+    print(lst[4])
+    print(lst[5])
+    print(lst[11])
+except:
+    print("some error occurred")
+
+print("Done")
+print("Bye")
+
+try:
+    my_list = [2,4,6,77,6,3]
+    print(my_list[76])
+    print(my_list[0]/my_list[-1])
+except IndexError:
+    print("Invaild Index")
+except:
+    print("some error occurred")
+finally :
+    print("this is a clause")
+
+ 
