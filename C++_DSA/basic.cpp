@@ -94,6 +94,7 @@
 using namespace std;
 
 int main() {
+    
     int myAge = 65;
     string name = "Narayan";
     double height = 6.6;

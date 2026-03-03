@@ -20,3 +20,21 @@
 //     cout << area ;
 //     return 0 ;
 // }
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x;
+    cout << "Type a number: " ;
+    cin >> x;
+    int y ;
+    cout << "Type your number : " ; 
+    cin >> y;
+
+    int sum = x + y ;
+    cout << " your total is : " << sum <<endl ;
+    // cout << "your numebr is :" << x;
+    return 0 ;
+}
