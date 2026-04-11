@@ -12,6 +12,17 @@
 // return 0;
 // }
 
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string names[3] = {"mishra","sharma","behera"};
+//     names[1] = {"son"};
+//     for (int i = 0; i < 3; i++){
+//         cout<< names[i] <<endl;
+//     }
+//     return 0;
+// }
 // #include <iostream>
 // #include <string>
 // using namespace std;
@@ -24,7 +35,16 @@
 // return 0;
 // }
 
-
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string bike[3] = {"tvs","tkm","duke"};
+//     for(int i = 0; i <3 ;i++){
+//         cout <<i << " = " << bike[i] << endl;
+//     }
+//     return 0;
+// }
 // #include <iostream>
 // #include <string>
 // using namespace std;
@@ -70,6 +90,22 @@
 //     return 0; 
 // }
 
+#include<iostream>
+#include<string>
+#include<vector>
+using namespace std;
+
+int main(){
+    string code[3];
+    code[0] = {"pro1"};
+    code[1] = {"pro2"};
+    code[2] = {"pro3"};
+    for(int i = 0;i < 3; i++){
+        cout
+    }
+    return 0;
+}
+
 // #include <iostream>
 // #include<string>
 // using namespace std;
@@ -104,23 +140,23 @@
 //     return 0;
 // }
 
-#include <iostream>
-#include<string>
-using namespace std;
-int main() {
-    int ages[8] = {20,30,40,60,50,11,050,55};
-    float avg, sum = 0;
-    int  i;
+// #include <iostream>
+// #include<string>
+// using namespace std;
+// int main() {
+//     int ages[8] = {20,30,40,60,50,11,050,55};
+//     float avg, sum = 0;
+//     int  i;
 
-    int length = sizeof(ages)/sizeof(ages[0]);
+//     int length = sizeof(ages)/sizeof(ages[0]);
 
-    int lowestage = ages[0];
-    for(int age : ages){
-        if(lowestage < age){
-            lowestage = age;  
-        }
-    }
-    cout << "The lowest age is: "<< lowestage <<endl;
+//     int lowestage = ages[0];
+//     for(int age : ages){
+//         if(lowestage < age){
+//             lowestage = age;  
+//         }
+//     }
+//     cout << "The lowest age is: "<< lowestage <<endl;
 
     // for(int age : ages){
     //     sum += age;
@@ -128,5 +164,7 @@ int main() {
     // }
     // avg = sum / length;
     // cout << " the average age is : " << avg << "\n";
-    return 0;
-}
+//     return 0;
+// }
+
+
