@@ -1,28 +1,51 @@
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     bool iscodingfun = true;
-//     bool isfishtasty = false;
+#include <iostream>
+using namespace std;
+int main(){
+    bool iscodingfun = true;
+    bool isfishtasty = false;
 
-//     cout << iscodingfun <<endl;
-//     cout << isfishtasty<<endl;
-//     return 0;
-// }
+    cout << iscodingfun <<endl;
+    cout << isfishtasty<<endl;
+    return 0;
+}
+ 
+#include<iostream>
+using namespace std;
+int main(){
+    bool iscoding = false;
+    bool isfish = true;
 
-// #include <iostream>
-// using namespace std;
+    cout << iscoding <<endl;
+    cout << isfish <<endl;
+    return 0;
+}
 
-// int main(){
-//     int x = 10;
-//     int y = 55;
-//     bool isgreater = x > y;
-//     cout << isgreater <<endl ;
+#include <iostream>
+using namespace std;
 
-//     cout << (x < y )<<endl;
-//     cout << (x == y ) << endl;
+int main(){
+    int x = 10;
+    int y = 55;
+    bool isgreater = x > y;
+    cout << isgreater <<endl ;
 
-//     return 0;
-// }
+    cout << (x < y )<<endl;
+    cout << (x == y ) << endl;
+
+    return 0;
+}
+
+#include<iostream>
+using namespace std;
+int main (){
+    int a = 10;
+    int n = 55;
+    bool isbig = a > n;
+    cout <<isbig <<endl;
+    cout <<(n < a) <<endl;
+    cout <<(n == a) <<endl;
+    return 0;
+}
 
 // #include <iostream>
 // using namespace std;
@@ -43,6 +66,19 @@
 //         return 0;
 //     }
 
+#include<iostream>
+using namespace std;
+int main(){
+    int myage = 25;
+    int voting = 27;
+
+    if(myage >= voting){
+        cout << "old enough to vote!";
+    }else{
+        cout << "not old enough to vote";
+    }
+    return 0;
+}
 
 // #include <iostream>
 // using namespace std;
@@ -56,7 +92,17 @@
 //     }
 //     return 0;
 // }
-
+#include<iostream>
+using namespace std;
+int main(){
+    int time = 20;
+    if(time > 10){
+        cout << "yes time is greater"<<endl;
+    }else{
+        cout << "no,time is not grater : "<<endl;
+    }
+    return 0;
+}
 // #include <iostream>
 // using namespace std;
 // int main(){
@@ -89,3 +135,17 @@ int main(){
         cout <<"good time for breakfeast";
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
