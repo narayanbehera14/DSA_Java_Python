@@ -19,6 +19,33 @@ int main(){
 //     return 0;
 // }
 
+// #include<iostream>
+// using namspace std;
+// int main(){
+//     int n = -45;
+//     if(n >= 0) {
+//         cout << "n is positive\n";
+//     }else{
+//         cout <<"n is negative\n";
+//     }
+//     return 0;
+
+// }
+
+#include<iostream>
+using namspace std;
+int main(){
+    int age;
+    cout <<" enter your age :"<<endl;
+    cin >> age;
+    if (age >= 18){
+        cout<<"can vote\n";
+    }else{
+        cout<< "u cant vote\n";
+    }
+    return 0;
+}
+
 #include <iostream>
 using namespace std;
 
@@ -49,5 +76,34 @@ using namespace std;
         cout << number << "x" << i << " = " << number * i << "\n";
         
     }
+    return 0;
+}
+
+int n ;
+cout <<"enter a number";
+cin >> number;
+if(n%2==0){
+    cout <<"even number";
+}else{
+    cout <<"odd number";
+}
+return 0;
+}
+
+#include<iostream>
+using namespace std;
+int main(){
+    int marks;
+    cout<<" enter your marks:\n";
+    cin>> marks;
+    if(marks >= 90){
+        cout <<"Grafe is A\n";
+    }else if(marks >= 80 && marks <= 70){
+        cout<< "Grade is B\n";
+    }else if(marks >=60 && marks <= 50){
+        cout <<"Grade is C";
+    }else {
+        cout <<"grade is C"
+    } 
     return 0;
 }
