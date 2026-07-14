@@ -7,6 +7,14 @@
 //     cout << sum ; 
 //     return 0 ;
 // }
+#include<iostream>
+using namespace std;
+int main(){
+    int x =7 , y = 09;
+    int sum = x+y;
+    cout << sum ;
+    return 0;
+}
 
 // #include <iostream>
 // using namespace std;
@@ -20,7 +28,17 @@
 //     cout << area ;
 //     return 0 ;
 // }
-
+#include<iostream>
+using namespace std;
+int main(){
+    int length = 4;
+    int width = 88;
+    int area = length * width;
+    cout<< "length is :" << length <<endl;
+    cout << "width is "<<width <<endl;
+    cout << area;
+    return 0;
+}
 
 #include <iostream>
 using namespace std;
@@ -38,3 +56,17 @@ int main(){
     // cout << "your numebr is :" << x;
     return 0 ;
 }
+
+#include <iostream>
+using namespace std;
+int main(){
+    int x;
+    cout <<"type a number :";
+    cin >> x;
+    int y ;
+    cout << "type y :"
+    cin >> y;
+    int sum = x + y ;
+    cout <<" yout total is : "<< sum <<endl;
+}
+return 0

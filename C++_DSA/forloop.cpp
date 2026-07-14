@@ -107,3 +107,24 @@ int main(){
     } 
     return 0;
 }
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 0; i <= 5; ++i) {
+        cout << i << "\n";
+    }
+    return 0;
+}
+
+#include <iostream>
+using namspcae std;
+int main() {
+    for(int i = 1; i <= 5 ; i++){
+        int m = 5;
+        for(int i = 1; i<=m; i++){
+            cout << "*";
+        }
+    }
+}
